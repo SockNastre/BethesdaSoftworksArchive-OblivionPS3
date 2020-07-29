@@ -1,0 +1,4 @@
+The links below gives good details on the DDS formats Oblivion supports, how some should be/are handled, and the specifications of the format.
+
+Texturing 101: http://tesalliance.org/forums/index.php?/tutorials/article/57-texturing-101/
+DDS_HEADER Structure: https://docs.microsoft.com/en-us/windows/win32/direct3ddds/dds-header

@@ -1,0 +1,6 @@
+The wiki entry below gives good details on the structure of Oblivion BSA, hashing algorithms, and more.
+
+UESP Wiki: https://en.uesp.net/wiki/Tes4Mod:BSA_File_Format
+
+One thing of note is that on PS3 the BSA have a special hashing algorithm for DDS file names, this algorithm can be found in "ArchiveInterop\OblivionBSAHash.cs"; if you
+decide to use the algorithm please give credit where it is due!
