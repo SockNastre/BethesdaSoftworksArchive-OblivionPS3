@@ -41,14 +41,14 @@ namespace PackerCLI
                         }
 
                         Program.ShowHelpText(true);
-                        return;
+                        break;
                     }
 
                 case "-h":
                 case "-help":
                     {
                         Program.ShowHelpText();
-                        return;
+                        break;
                     }
 
                 case "-p":
@@ -155,7 +155,7 @@ namespace PackerCLI
                 Console.WriteLine("Invalid usage\n");
             }
 
-            Console.WriteLine("BethesdaSoftworksArchive OblivionPS3 Packer Cli\nCopyright (c) 2020  SockNastre\nVersion: 1.0.0.0\n\n" +
+            Console.WriteLine("BethesdaSoftworksArchive OblivionPS3 Packer Cli\nCopyright (c) 2020  SockNastre\nVersion: 1.0.0.1\n\n" +
                 ".NET Zlib Implementation\nLink: https://www.codeproject.com/Tips/830793/NET-ZLib-Implementation \nLicense (CPOL): https://www.codeproject.com/info/cpol10.aspx \n\n" +
                 "Magick.NET\nCopyright 2013-2020 Dirk Lemstra\nLicense (Apache 2.0): https://github.com/dlemstra/Magick.NET/blob/master/License.txt \n\n" + new string('-', 50) +
                 "\n\nUsage: \"BSA OblivionPS3 Packer Cli.exe\" <Command> <Options>\n\nCommands:\n-pack (-p)\n-help (-h)\n\n" +
