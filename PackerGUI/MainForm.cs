@@ -181,7 +181,7 @@ namespace PackerGUI
 
         private void listViewAssets_SelectedIndexChanged(object sender, EventArgs e)
         {
-            removeFilesToolStripMenuItem.Enabled = listViewAssets.SelectedItems.Count > 0 ? true : false;
+            removeFilesToolStripMenuItem.Enabled = listViewAssets.SelectedItems.Count > 0;
         }
 
         private bool IsIniValid(Ini ini)
