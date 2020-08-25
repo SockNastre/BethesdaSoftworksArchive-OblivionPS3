@@ -23,8 +23,11 @@ A: In order to make a BSA that is proper for PS3 make sure "Use PS3 file flags",
 Q: _Should I turn on the setting to compress assets in the archive?_  
 A: This one is up to you, compression may increase load times but decrease BSA size.
 
+Q: _Why was my DXT3/A8R8B8G8 normal map converted to DXT5?_
+A: When "Convert normal maps" is turned on in settings all alpha normal maps are turned into DXT5. If this causes some kind of issues and you are sure it's this feature that is messing it up please create an issue for it.
+
 Q: _Should I pack BSAs for PC with this?_  
-A: No. For PC there are other tools specifically made for it which can be Googled. If you decide to use my tool for packing on PC I hold no responsibility for bad BSAs being made (and I guaruntee some will be bad).
+A: No. For PC there are other tools specifically made for it which can be Googled. If you decide to use my tool for packing on PC I hold no responsibility for bad BSAs being made (and I guaruntee some will be bad). The reason why certain options can be turned off in order to make BSAs more like PC is because in PS3 Oblivion the mesh BSA (and possibly others, idk) have PC file flags, and sometimes extending DDS data isn't used.
 
 ### Credits
  - Thanks to [AlexxEG](https://github.com/AlexxEG) for helping me understand buffers.
