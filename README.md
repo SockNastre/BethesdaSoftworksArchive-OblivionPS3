@@ -23,7 +23,7 @@ A: In order to make a BSA that is proper for PS3 make sure "Use PS3 file flags",
 Q: _Should I turn on the setting to compress assets in the archive?_  
 A: This one is up to you, compression may increase load times but decrease BSA size.
 
-Q: _Why was my DXT3/A8R8B8G8 normal map converted to DXT5?_
+Q: _Why was my DXT3/A8R8B8G8 normal map converted to DXT5?_  
 A: When "Convert normal maps" is turned on in settings all alpha normal maps are turned into DXT5. If this causes some kind of issues and you are sure it's this feature that is messing it up please create an issue for it.
 
 Q: _Should I pack BSAs for PC with this?_  
