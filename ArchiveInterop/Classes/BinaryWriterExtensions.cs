@@ -8,9 +8,9 @@ namespace ArchiveInterop.Classes
     public static class BinaryWriterExtensions
     {
         /// <summary>
-        /// Writes string in null-terminated format in BinaryWriter stream.
+        /// Writes string in null-terminated format in BinaryWriter.
         /// </summary>
-        /// <param name="writer">Strea to write in.</param>
+        /// <param name="writer">BinaryWriter to write in.</param>
         /// <param name="str">String to write.</param>
         public static void WriteNullTerminatedString(this BinaryWriter writer, string str)
         {
