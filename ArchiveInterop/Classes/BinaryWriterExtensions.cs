@@ -3,7 +3,7 @@
 namespace ArchiveInterop.Classes
 {
     /// <summary>
-    /// Provides static extension method for adding functionality to BinaryWriter streams.
+    /// Provides static extension methods to add functionality to BinaryWriter.
     /// </summary>
     public static class BinaryWriterExtensions
     {
