@@ -27,7 +27,7 @@ Q: _Why was my DXT3/A8R8B8G8 normal map converted to DXT5?_
 A: When "Convert normal maps" is turned on in settings all alpha-containing normal maps are turned into DXT5. If this causes some kind of issues and you are sure it's this feature that is messing it up please create an issue for it.
 
 Q: _Should I pack BSAs for PC with this?_  
-A: No. For PC there are other tools specifically made for it which can be Googled. If you decide to use my tool for packing on PC I hold no responsibility for bad BSAs being made. The reason why certain options can be turned off in order to make BSAs more like PC is because in PS3 Oblivion the main mesh BSA (and possibly others, idk) have PC file flags, and sometimes extending DDS data isn't used.
+A: No. For PC there are other tools specifically made for it which can be Googled. If you decide to use my tool for packing on PC I hold no responsibility for bad BSAs being made. The reason why certain options can be turned off in order to make BSAs more like PC is because in PS3 Oblivion the main mesh BSA (and possibly others I do not know of) have PC file flags, and sometimes extending DDS data isn't used.
 
 ### Credits
  - Thanks to [AlexxEG](https://github.com/AlexxEG) for helping me understand buffers.
