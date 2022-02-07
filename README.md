@@ -30,7 +30,7 @@ Q: _Why are my 2048x2048 or higher-resolution textures crashing the game?_
 A: From my testing any textures that are 2048x2048 or higher ends up crashing game. While these resolutions may seem appealing it is important to remember Oblivion PS3 is a PS3 game and cannot handle too much. It is advised you downscale the textures below 2048x2048 and then the crashes should no longer occur.
 
 Q: _How can I downscale my textures?_  
-A: The [Ordenador](https://www.nexusmods.com/skyrim/mods/12801) tool by AdPipino supports mass-downscaling textures. It is advised you downscale first then pack with the tool.
+A: The [Ordenador](https://www.nexusmods.com/skyrim/mods/12801) tool by AdPipino supports mass-downscaling textures. It is advised you downscale first then pack with my tool.
 
 Q: _Why was my DXT3/A8R8B8G8 normal map converted to DXT5?_  
 A: When "Convert normal maps" is turned on in settings all alpha-containing normal maps are turned into DXT5. If this causes some kind of issues and you are sure it's this feature that is messing it up please create an issue for it.
