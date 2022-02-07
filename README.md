@@ -18,7 +18,7 @@ Q: _How can we **open BSA**?_
 A: The [BSA Browser](https://www.github.com/AlexxEG/BSA_Browser) tool by AlexxEG (see credits) supports opening Oblivion PS3 BSA.  
 
 Q: _What settings should I be using to pack on PS3?_  
-A: In order to make a BSA that is proper for PS3 make sure "Use PS3 file flags", "Extend data", and "Convert normal maps" are turned on. If they are turned off BSA may not work right on PS3.
+A: In order to make a BSA that is proper for PS3 make sure "Use PS3 file flags", "Extend data", and "Convert normal maps" are turned on. If they are turned off the BSA may not work right on PS3.
 
 Q: _Should I turn on the setting to compress assets in the archive?_  
 A: This one is up to you, compression may increase load times but decrease BSA size.
