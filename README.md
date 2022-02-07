@@ -27,7 +27,7 @@ Q: _Why is my game crashing after adding a BSA from this tool?_
 A: The game may crash if the files inside of the BSA are bad or unexpected from Oblivion's perspective. This one varies, for textures you can see the question below. For other file types inside of BSA it is important to remember that there will always be differences between PC and PS3 Oblivion, some differences may cause issues with loading files.
 
 Q: _Why are my 2048x2048 or higher-resolution textures crashing the game?_  
-A: From my testing any textures that are 2048x2048 or higher ends up crashing game. While these resolutions may seem appealing it is important to remember Oblivion PS3 is a PS3 game and cannot handle too much. It is advised you downscale the textures below 2048x2048.
+A: From my testing any textures that are 2048x2048 or higher ends up crashing game. While these resolutions may seem appealing it is important to remember Oblivion PS3 is a PS3 game and cannot handle too much. It is advised you downscale the textures below 2048x2048 and then the crashes should no longer occur.
 
 Q: _How can I downscale my textures?_  
 A: The [Ordenador](https://www.nexusmods.com/skyrim/mods/12801) tool by AdPipino supports mass-downscaling textures. It is advised you downscale first then pack with the tool.
