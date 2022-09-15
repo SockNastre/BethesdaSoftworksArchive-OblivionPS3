@@ -210,9 +210,10 @@ namespace ArchiveInterop
             {
                 switch (ext.Substring(1))
                 {
+                    case "ctl":
                     default: // Miscellaneous
                         {
-                            fileFlags |= 1 << 9;
+                            fileFlags |= 1 << 8;
                             break;
                         }
 
@@ -266,12 +267,6 @@ namespace ArchiveInterop
                     case "fnt":
                         {
                             fileFlags |= 1 << 7;
-                            break;
-                        }
-
-                    case "ctl":
-                        {
-                            fileFlags |= 1 << 8;
                             break;
                         }
                 }
